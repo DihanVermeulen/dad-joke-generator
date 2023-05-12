@@ -7,11 +7,16 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: "autoUpdate",
-      devOptions: {
-        enabled: true,
+      manifest: {
+        icons: [
+          {
+            src: "/public/assets/512.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+        ],
       },
-      injectRegister: "auto",
     }),
   ],
 });
