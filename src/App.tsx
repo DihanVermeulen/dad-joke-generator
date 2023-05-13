@@ -1,11 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import { axiosInstance } from "./services/axios";
 
 function App() {
   const [dadJoke, setDadJoke] = useState<string>("");
+  const [error, setError] = useState<any>({});
 
   const fetchDadJoke = async () => {
-    const response = await fetch("https://icanhazdadjoke.com/", {
+    const response = await axiosInstance.get("", {
       headers: {
         Accept: "application/json",
       },
@@ -14,19 +16,25 @@ function App() {
   };
   const handleFetchDadJoke = () => {
     fetchDadJoke()
-      .then((response) => response.json())
+      .then((response) => response.data)
       .then((data) => {
-        // Process the received joke data
+        setError({});
         setDadJoke(data.joke);
       })
       .catch((error) => {
-        // Handle any errors that occurred during the request
-        console.error("Error:", error);
+        console.log(error);
+        setError(error);
       });
   };
 
   return (
     <main>
+      {Object.keys(error).length !== 0 && (
+        <p className="error">
+          Oops! There was an error <br />
+          Error message: {error.message}
+        </p>
+      )}
       <h1>Dad Joke Generator</h1>
       <button
         onClick={() => {
@@ -35,7 +43,7 @@ function App() {
       >
         Random
       </button>
-      <p>{dadJoke}</p>
+      <p className="output">{dadJoke}</p>
     </main>
   );
 }
