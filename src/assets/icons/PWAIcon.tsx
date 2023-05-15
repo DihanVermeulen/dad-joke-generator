@@ -12,7 +12,7 @@ const PWAIcon: React.FC<Props> = ({ width, height }) => {
     const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
     setColorScheme(mediaQuery.matches ? "dark" : "light");
 
-    const handleChange = (event: Event) => {
+    const handleChange = (event: MediaQueryListEvent) => {
       setColorScheme(event.matches ? "dark" : "light");
     };
 
