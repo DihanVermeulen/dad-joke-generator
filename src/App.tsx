@@ -4,6 +4,8 @@ import "./styles/buttons.css";
 import "./styles/headers.css";
 import "./styles/footers.css";
 import { axiosInstance } from "./services/axios";
+import { Footer } from "./layout/Footer";
+import { Header } from "./layout/Header";
 
 function App() {
   const [dadJoke, setDadJoke] = useState<string>("");
