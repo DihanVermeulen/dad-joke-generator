@@ -1,7 +1,10 @@
 <header style="display:flex; flex-direction: column; align-items:center; margin-bottom: 10px;">
- <img style="border-radius: 10px; margin-bottom: 10px;" src="./public/icons/512x512.png" alt="Logo" width="200" height="200">
+ 
+ <p align="center">
+  <img width="175px" height="auto" style="border-radius: 50%;" align="center" src="./public/icons/512x512.png" alt="Logo" height="175px">
+ </p>
 
-# Dad Joke Generator
+<h1 align="center">Dad Joke Generator</h1>
 
 <p>Dad Joke Generator is an entertaining application that generates an endless supply of hilarious dad jokes at the click of a button.</p>
 
