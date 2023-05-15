@@ -1,5 +1,6 @@
-p {
-  color: #ffffff;
+:root {
+  --background-colour: #1a1a1a;
+  --text-colour: #ffffff;
 }
 
 main {
@@ -8,16 +9,35 @@ main {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  height: 100vh;
+  width: 100%;
+  color: #000000;
 }
 
-p {
+main h1 {
   text-align: center;
+  color: var(--text-colour);
 }
 
-h1 {
+main p {
   text-align: center;
+  color: var(--text-colour);
 }
 
-button {
-  width: 7rem;
+.error {
+  color: red;
+}
+
+.output {
+  height: 10px;
+}
+
+@media (prefers-color-scheme: light) {
+  main p {
+    color: #1a1a1a;
+  }
+
+  main h1 {
+    color: #1a1a1a;
+  }
 }
