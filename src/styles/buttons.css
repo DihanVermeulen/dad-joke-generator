@@ -35,6 +35,7 @@
   border: 0;
   width: 50px;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .clean__button:active {
