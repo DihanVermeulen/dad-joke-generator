@@ -1,22 +1,7 @@
-<style>
- img[src$="#logo"] {
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-  max-width: 50%;
-}
-</style>
-
 <header style="display:flex; flex-direction: column; align-items:center; margin-bottom: 10px;">
  
  <p align="center">
   <img width="175px" height="auto" style="border-radius: 50%;" align="center" src="./public/icons/512x512.png" alt="Logo" height="175px">
- </p>
- 
-  <p align="center">
-   
-  ![Logo](./public/icons/512x512.png#logo)
-   
  </p>
 
 <h1 align="center">Dad Joke Generator</h1>
