@@ -1,0 +1,12 @@
+.main__header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.main__header button {
+  margin-left: auto;
+}
