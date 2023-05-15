@@ -1,5 +1,5 @@
 <header style="display:flex; flex-direction: column; align-items:center; margin-bottom: 10px;">
- <img style="border-radius: 10px; margin-bottom: 10px;" src="./public/icons/512x512.png" alt="Logo" width="200" height="200">
+ <img style="border-radius: 10px; margin-bottom: 10px;" align="center" src="./public/icons/512x512.png" alt="Logo" width="200" height="200">
 
 <h1 align="center">Dad Joke Generator</h1>
 
