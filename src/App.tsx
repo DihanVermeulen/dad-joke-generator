@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+import "./styles/buttons.css";
+import "./styles/headers.css";
+import "./styles/footers.css";
 import { axiosInstance } from "./services/axios";
 
 function App() {
