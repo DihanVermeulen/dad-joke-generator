@@ -14,7 +14,9 @@
  </p>
  
   <p align="center">
+   
   ![Logo](./public/icons/512x512.png#logo)
+   
  </p>
 
 <h1 align="center">Dad Joke Generator</h1>
