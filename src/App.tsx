@@ -33,23 +33,28 @@ function App() {
   };
 
   return (
-    <main>
-      {Object.keys(error).length !== 0 && (
-        <p className="error">
-          Oops! There was an error <br />
-          Error message: {error.message}
-        </p>
-      )}
-      <h1>Dad Joke Generator</h1>
-      <button
-        onClick={() => {
-          handleFetchDadJoke();
-        }}
-      >
-        Random
-      </button>
-      <p className="output">{dadJoke}</p>
-    </main>
+    <>
+      <Header />
+      <main>
+        {Object.keys(error).length !== 0 && (
+          <p className="error">
+            Oops! There was an error <br />
+            Error message: {error.message}
+          </p>
+        )}
+        <h1>Dad Joke Generator</h1>
+        <button
+          className="primary__button"
+          onClick={() => {
+            handleFetchDadJoke();
+          }}
+        >
+          Random
+        </button>
+        <p className="output">{dadJoke}</p>
+      </main>
+      <Footer />
+    </>
   );
 }
 
