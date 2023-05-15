@@ -1,7 +1,7 @@
 <header style="display:flex; flex-direction: column; align-items:center; margin-bottom: 10px;">
  
  <p align="center">
-  <img width="175px" height="auto" style="border-radius: 10px; margin-bottom: 10px;" align="center" src="./public/icons/512x512.png" alt="Logo" height="175px">
+  <img width="175px" height="auto" style="border-radius: 50%;" align="center" src="./public/icons/512x512.png" alt="Logo" height="175px">
  </p>
 
 <h1 align="center">Dad Joke Generator</h1>
