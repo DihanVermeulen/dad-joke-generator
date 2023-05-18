@@ -39,7 +39,6 @@ function App() {
         setDadJoke(data.joke);
       })
       .catch((error) => {
-        console.log(error);
         setError(error);
       });
   };
