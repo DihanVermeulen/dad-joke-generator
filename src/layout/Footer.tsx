@@ -82,7 +82,7 @@ export const Footer = () => {
         </small>
       </p>
       <p style={{ textAlign: "center", width: "100%", color: "#777777" }}>
-        <small>Version: 1.0.0</small>
+        <small>Version: 1.1.0</small>
       </p>
     </footer>
   );
