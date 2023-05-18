@@ -15,6 +15,10 @@ function App() {
   const [dadJoke, setDadJoke] = useState<string>("");
   const [error, setError] = useState<Error>({});
 
+  /**
+   * Fetches random dad joke
+   * @returns {object} - dad joke
+   */
   const fetchDadJoke = async () => {
     const response = await axiosInstance.get("", {
       headers: {
@@ -23,6 +27,10 @@ function App() {
     });
     return response;
   };
+
+  /**
+   * Hanldes the fetching of the dad joke
+   */
   const handleFetchDadJoke = () => {
     fetchDadJoke()
       .then((response) => response.data)
