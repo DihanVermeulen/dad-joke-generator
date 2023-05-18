@@ -1,0 +1,744 @@
+{
+  "jokes": [
+    {
+      "id": 1,
+      "setup": "I'm afraid for the calendar. Its days are numbered.",
+      "punchline": ""
+    },
+    {
+      "id": 2,
+      "setup": "My wife said I should do lunges to stay in shape. That would be a big step forward.",
+      "punchline": ""
+    },
+    {
+      "id": 3,
+      "setup": "Why do fathers take an extra pair of socks when they go golfing?",
+      "punchline": "In case they get a hole in one!"
+    },
+    {
+      "id": 4,
+      "setup": "Singing in the shower is fun until you get soap in your mouth. Then it's a soap opera.",
+      "punchline": ""
+    },
+    {
+      "id": 5,
+      "setup": "What do a tick and the Eiffel Tower have in common?",
+      "punchline": "They're both Paris sites."
+    },
+    {
+      "id": 6,
+      "setup": "What do you call a fish wearing a bowtie?",
+      "punchline": "Sofishticated."
+    },
+    {
+      "id": 7,
+      "setup": "How do you follow Will Smith in the snow?",
+      "punchline": "You follow the fresh prints."
+    },
+    {
+      "id": 8,
+      "setup": "If April showers bring May flowers, what do May flowers bring?",
+      "punchline": "Pilgrims."
+    },
+    {
+      "id": 9,
+      "setup": "I thought the dryer was shrinking my clothes. Turns out it was the refrigerator all along.",
+      "punchline": ""
+    },
+    {
+      "id": 10,
+      "setup": "How does dry skin affect you at work?",
+      "punchline": "You don’t have any elbow grease to put into it."
+    },
+    {
+      "id": 11,
+      "setup": "What do you call a factory that makes okay products?",
+      "punchline": "A satisfactory."
+    },
+    {
+      "id": 12,
+      "setup": "Dear Math, grow up and solve your own problems.",
+      "punchline": ""
+    },
+    {
+      "id": 13,
+      "setup": "What did the janitor say when he jumped out of the closet?",
+      "punchline": "Supplies!"
+    },
+    {
+      "id": 14,
+      "setup": "Have you heard about the chocolate record player?",
+      "punchline": "It sounds pretty sweet."
+    },
+    {
+      "id": 15,
+      "setup": "What did the ocean say to the beach?",
+      "punchline": "Nothing, it just waved."
+    },
+    {
+      "id": 16,
+      "setup": "Why do seagulls fly over the ocean?",
+      "punchline": "Because if they flew over the bay, we'd call them bagels."
+    },
+    {
+      "id": 17,
+      "setup": "I only know 25 letters of the alphabet. I don't know y.",
+      "punchline": ""
+    },
+    {
+      "id": 18,
+      "setup": "How does the moon cut his hair?",
+      "punchline": "Eclipse it."
+    },
+    {
+      "id": 19,
+      "setup": "What did one wall say to the other?",
+      "punchline": "I'll meet you at the corner."
+    },
+    {
+      "id": 20,
+      "setup": "What did the zero say to the eight?",
+      "punchline": "That belt looks good on you."
+    },
+    {
+      "id": 21,
+      "setup": "A skeleton walks into a bar and says, 'Hey, bartender. I'll have one beer and a mop.'",
+      "punchline": ""
+    },
+    {
+      "id": 22,
+      "setup": "Where do fruits go on vacation?",
+      "punchline": "Pear-is!"
+    },
+    {
+      "id": 23,
+      "setup": "I asked my dog what's two minus two. He said nothing.",
+      "punchline": ""
+    },
+    {
+      "id": 24,
+      "setup": "What did Baby Corn say to Mama Corn?",
+      "punchline": "Where's Pop Corn?"
+    },
+    {
+      "id": 25,
+      "setup": "What's the best thing about Switzerland?",
+      "punchline": "I don't know, but the flag is a big plus."
+    },
+    {
+      "id": 26,
+      "setup": "What does a sprinter eat before a race?",
+      "punchline": "Nothing, they fast!"
+    },
+    {
+      "id": 27,
+      "setup": "Where do you learn to make a banana split?",
+      "punchline": "Sundae school."
+    },
+    {
+      "id": 28,
+      "setup": "What has more letters than the alphabet?",
+      "punchline": "The post office!"
+    },
+    {
+      "id": 29,
+      "setup": "Dad, did you get a haircut?",
+      "punchline": "No, I got them all cut!"
+    },
+    {
+      "id": 30,
+      "setup": "What do you call a poor Santa Claus?",
+      "punchline": "St. Nickel-less."
+    },
+    {
+      "id": 31,
+      "setup": "I got carded at a liquor store, and my Blockbuster card accidentally fell out. The cashier said never mind.",
+      "punchline": ""
+    },
+    {
+      "id": 32,
+      "setup": "Where do boats go when they're sick?",
+      "punchline": "To the boat doc."
+    },
+    {
+      "id": 33,
+      "setup": "I don't trust those trees. They seem kind of shady.",
+      "punchline": ""
+    },
+    {
+      "id": 34,
+      "setup": "My wife is really mad at the fact that I have no sense of direction. So I packed up my stuff and right!",
+      "punchline": ""
+    },
+    {
+      "id": 35,
+      "setup": "How do you get a squirrel to like you?",
+      "punchline": "Act like a nut."
+    },
+    {
+      "id": 36,
+      "setup": "Why don't eggs tell jokes?",
+      "punchline": "They'd crack each other up."
+    },
+    {
+      "id": 37,
+      "setup": "I don't trust stairs. They're always up to something.",
+      "punchline": ""
+    },
+    {
+      "id": 38,
+      "setup": "What do you call someone with no body and no nose?",
+      "punchline": "Nobody knows."
+    },
+    {
+      "id": 39,
+      "setup": "Did you hear the rumor about butter?",
+      "punchline": "Well, I'm not going to spread it!"
+    },
+    {
+      "id": 40,
+      "setup": "Why couldn't the bicycle stand up by itself?",
+      "punchline": "It was two tired."
+    },
+    {
+      "id": 41,
+      "setup": "What did one hat say to the other?",
+      "punchline": "Stay here! I'm going on ahead."
+    },
+    {
+      "id": 42,
+      "setup": "Why did Billy get fired from the banana factory?",
+      "punchline": "He kept throwing away the bent ones."
+    },
+    {
+      "id": 43,
+      "setup": "Dad, can you put my shoes on?",
+      "punchline": "No, I don't think they'll fit me."
+    },
+    {
+      "id": 44,
+      "setup": "Why can't a nose be 12 inches long?",
+      "punchline": "Because then it would be a foot."
+    },
+    {
+      "id": 45,
+      "setup": "What does a lemon say when it answers the phone?",
+      "punchline": "Yellow!"
+    },
+    {
+      "id": 46,
+      "setup": "This graveyard looks overcrowded. People must be dying to get in.",
+      "punchline": ""
+    },
+    {
+      "id": 47,
+      "setup": "What kind of car does an egg drive?",
+      "punchline": "A yolkswagen."
+    },
+    {
+      "id": 48,
+      "setup": "Dad, can you put the cat out?",
+      "punchline": "I didn't know it was on fire."
+    },
+    {
+      "id": 49,
+      "setup": "How do you make 7 even?",
+      "punchline": "Take away the s."
+    },
+    {
+      "id": 50,
+      "setup": "How does a taco say grace?",
+      "punchline": "Lettuce pray."
+    },
+    {
+      "id": 51,
+      "setup": "What time did the man go to the dentist?",
+      "punchline": "Tooth hurt-y."
+    },
+    {
+      "id": 52,
+      "setup": "Why didn't the skeleton climb the mountain?",
+      "punchline": "It didn't have the guts."
+    },
+    {
+      "id": 53,
+      "setup": "What do you call it when a snowman throws a tantrum?",
+      "punchline": "A meltdown."
+    },
+    {
+      "id": 54,
+      "setup": "How many tickles does it take to make an octopus laugh?",
+      "punchline": "Ten tickles."
+    },
+    {
+      "id": 55,
+      "setup": "I have a joke about chemistry, but I don't think it will get a reaction.",
+      "punchline": ""
+    },
+    {
+      "id": 56,
+      "setup": "What concert costs just 45 cents?",
+      "punchline": "50 Cent featuring Nickelback!"
+    },
+    {
+      "id": 57,
+      "setup": "What does a bee use to brush its hair?",
+      "punchline": "A honeycomb!"
+    },
+    {
+      "id": 58,
+      "setup": "How do you make a tissue dance?",
+      "punchline": "You put a little boogie in it."
+    },
+    {
+      "id": 59,
+      "setup": "Why did the math book look so sad?",
+      "punchline": "Because of all of its problems!"
+    },
+    {
+      "id": 60,
+      "setup": "What do you call cheese that isn't yours?",
+      "punchline": "Nacho cheese."
+    },
+    {
+      "id": 61,
+      "setup": "My dad told me a joke about boxing. I guess I missed the punch line.",
+      "punchline": ""
+    },
+    {
+      "id": 62,
+      "setup": "What kind of shoes do ninjas wear?",
+      "punchline": "Sneakers!"
+    },
+    {
+      "id": 63,
+      "setup": "How does a penguin build its house?",
+      "punchline": "Igloos it together."
+    },
+    {
+      "id": 64,
+      "setup": "How did Harry Potter get down the hill?",
+      "punchline": "Walking. JK! Rowling."
+    },
+    {
+      "id": 65,
+      "setup": "I used to be addicted to soap, but I'm clean now.",
+      "punchline": ""
+    },
+    {
+      "id": 66,
+      "setup": "A guy walks into a bar... and he was disqualified from the limbo contest.",
+      "punchline": ""
+    },
+    {
+      "id": 67,
+      "setup": "You think swimming with sharks is expensive?",
+      "punchline": "Swimming with sharks cost me an arm and a leg."
+    },
+    {
+      "id": 68,
+      "setup": "When two vegans get in an argument, is it still called a beef?",
+      "punchline": ""
+    },
+    {
+      "id": 69,
+      "setup": "I ordered a chicken and an egg from Amazon. I'll let you know...",
+      "punchline": ""
+    },
+    {
+      "id": 70,
+      "setup": "Do you wanna box for your leftovers?",
+      "punchline": "No, but I'll wrestle you for them."
+    },
+    {
+      "id": 71,
+      "setup": "That car looks nice but the muffler seems exhausted.",
+      "punchline": ""
+    },
+    {
+      "id": 72,
+      "setup": "Shout out to my fingers. I can count on all of them.",
+      "punchline": ""
+    },
+    {
+      "id": 73,
+      "setup": "If a child refuses to nap, are they guilty of resisting a rest?",
+      "punchline": ""
+    },
+    {
+      "id": 74,
+      "setup": "What country's capital is growing the fastest?",
+      "punchline": "Ireland. Every day it's Dublin."
+    },
+    {
+      "id": 75,
+      "setup": "I once had a dream I was floating in an ocean of orange soda. It was more of a fanta sea.",
+      "punchline": ""
+    },
+    {
+      "id": 76,
+      "setup": "Did you know corduroy pillows are in style?",
+      "punchline": "They're making headlines."
+    },
+    {
+      "id": 77,
+      "setup": "Did you hear about the kidnapping at school?",
+      "punchline": "It's okay, he woke up."
+    },
+    {
+      "id": 78,
+      "setup": "A cheeseburger walks into a bar. The bartender says, 'Sorry, we don't serve food here.'",
+      "punchline": ""
+    },
+    {
+      "id": 79,
+      "setup": "I once got fired from a canned juice company. Apparently I couldn't concentrate.",
+      "punchline": ""
+    },
+    {
+      "id": 80,
+      "setup": "I used to play piano by ear. Now I use my hands.",
+      "punchline": ""
+    },
+    {
+      "id": 81,
+      "setup": "Have you ever tried to catch a fog?",
+      "punchline": "I tried yesterday but I mist."
+    },
+    {
+      "id": 82,
+      "setup": "I'm on a seafood diet. I see food and I eat it.",
+      "punchline": ""
+    },
+    {
+      "id": 83,
+      "setup": "Why did the scarecrow win an award?",
+      "punchline": "Because he was outstanding in his field."
+    },
+    {
+      "id": 84,
+      "setup": "I made a pencil with two erasers. It was pointless.",
+      "punchline": ""
+    },
+    {
+      "id": 85,
+      "setup": "How do you make a Kleenex dance?",
+      "punchline": "Put a little boogie in it!"
+    },
+    {
+      "id": 86,
+      "setup": "I'm reading a book about anti-gravity. It's impossible to put down!",
+      "punchline": ""
+    },
+    {
+      "id": 87,
+      "setup": "Did you hear about the guy who invented the knock-knock joke?",
+      "punchline": "He won the 'no-bell' prize."
+    },
+    {
+      "id": 88,
+      "setup": "I've got a great joke about construction, but I'm still working on it.",
+      "punchline": ""
+    },
+    {
+      "id": 89,
+      "setup": "I used to hate facial hair...but then it grew on me.",
+      "punchline": ""
+    },
+    {
+      "id": 90,
+      "setup": "I decided to sell my vacuum cleaner—it was just gathering dust!",
+      "punchline": ""
+    },
+    {
+      "id": 91,
+      "setup": "I had a neck brace fitted years ago and I've never looked back since.",
+      "punchline": ""
+    },
+    {
+      "id": 92,
+      "setup": "You know, people say they pick their nose, but I feel like I was just born with mine.",
+      "punchline": ""
+    },
+    {
+      "id": 93,
+      "setup": "What's brown and sticky?",
+      "punchline": "A stick."
+    },
+    {
+      "id": 94,
+      "setup": "Why can't you hear a psychiatrist using the bathroom?",
+      "punchline": "Because the 'P' is silent."
+    },
+    {
+      "id": 95,
+      "setup": "What do you call an elephant that doesn't matter?",
+      "punchline": "An irrelephant."
+    },
+    {
+      "id": 96,
+      "setup": "What do you get from a pampered cow?",
+      "punchline": "Spoiled milk."
+    },
+    {
+      "id": 97,
+      "setup": "I like telling Dad jokes. Sometimes he laughs!",
+      "punchline": ""
+    },
+    {
+      "id": 98,
+      "setup": "What's the best smelling insect?",
+      "punchline": "A deodor-ant."
+    },
+    {
+      "id": 99,
+      "setup": "I used to be a personal trainer. Then I gave my too weak notice.",
+      "punchline": ""
+    },
+    {
+      "id": 100,
+      "setup": "Did I tell you the time I fell in love during a backflip?",
+      "punchline": "I was heels over head!"
+    },
+    {
+      "id": 101,
+      "setup": "If a child refuses to sleep during nap time, are they guilty of resisting a rest?",
+      "punchline": ""
+    },
+    {
+      "id": 102,
+      "setup": "I ordered a chicken and an egg online. I’ll let you know.",
+      "punchline": ""
+    },
+    {
+      "id": 103,
+      "setup": "It takes guts to be an organ donor.",
+      "punchline": ""
+    },
+    {
+      "id": 104,
+      "setup": "If you see a crime at an Apple Store, does that make you an iWitness?",
+      "punchline": ""
+    },
+    {
+      "id": 105,
+      "setup": "I'm so good at sleeping, I can do it with my eyes closed!",
+      "punchline": ""
+    },
+    {
+      "id": 106,
+      "setup": "I was going to tell a time-traveling joke, but you guys didn't like it.",
+      "punchline": ""
+    },
+    {
+      "id": 107,
+      "setup": "What did the vet say to the cat?",
+      "punchline": "How are you feline?"
+    },
+    {
+      "id": 108,
+      "setup": "What do you call a lazy baby kangaroo?",
+      "punchline": "A pouch potato!"
+    },
+    {
+      "id": 109,
+      "setup": "What happens when M&M’s can’t agree on anything?",
+      "punchline": "They reach an M-passe."
+    },
+    {
+      "id": 110,
+      "setup": "What do you call a fake noodle?",
+      "punchline": "An impasta."
+    },
+    {
+      "id": 111,
+      "setup": "What do you call a belt made of watches?",
+      "punchline": "A waist of time."
+    },
+    {
+      "id": 112,
+      "setup": "What happens when a strawberry gets run over crossing the street?",
+      "punchline": "Traffic jam."
+    },
+    {
+      "id": 113,
+      "setup": "What do you call two monkeys that share an Amazon account?",
+      "punchline": "Prime mates."
+    },
+    {
+      "id": 114,
+      "setup": "What do you call a pony with a sore throat?",
+      "punchline": "A little hoarse."
+    },
+    {
+      "id": 115,
+      "setup": "Where do math teachers go on vacation?",
+      "punchline": "Times Square."
+    },
+    {
+      "id": 116,
+      "setup": "Whenever I try to eat healthy, a chocolate bar looks at me and Snickers.",
+      "punchline": ""
+    },
+    {
+      "id": 117,
+      "setup": "What does garlic do when it gets hot?",
+      "punchline": "It takes its cloves off."
+    },
+    {
+      "id": 118,
+      "setup": "What's a robot's favorite snack?",
+      "punchline": "Computer chips."
+    },
+    {
+      "id": 119,
+      "setup": "How much does it cost Santa to park his sleigh?",
+      "punchline": "Nothing, it's on the house."
+    },
+    {
+      "id": 120,
+      "setup": "Mountains aren't just funny. They're hill areas.",
+      "punchline": ""
+    },
+    {
+      "id": 121,
+      "setup": "What do clouds wear?",
+      "punchline": "Thunderwear."
+    },
+    {
+      "id": 122,
+      "setup": "Why are piggy banks so wise?",
+      "punchline": "They're filled with common cents."
+    },
+    {
+      "id": 123,
+      "setup": "Why is Peter Pan always flying?",
+      "punchline": "He neverlands."
+    },
+    {
+      "id": 124,
+      "setup": "How do you get a good price on a sled?",
+      "punchline": "You have toboggan."
+    },
+    {
+      "id": 125,
+      "setup": "How can you tell if a tree is a dogwood tree?",
+      "punchline": "By its bark."
+    },
+    {
+      "id": 126,
+      "setup": "I used to hate facial hair, but then it grew on me.",
+      "punchline": ""
+    },
+    {
+      "id": 127,
+      "setup": "It's inappropriate to make a 'dad joke' if you're not a dad. It's a faux pa.",
+      "punchline": ""
+    },
+    {
+      "id": 128,
+      "setup": "What do you call a hot dog on wheels?",
+      "punchline": "Fast food!"
+    },
+    {
+      "id": 129,
+      "setup": "Where do young trees go to learn?",
+      "punchline": "Elementree school."
+    },
+    {
+      "id": 130,
+      "setup": "Did you hear about the circus fire?",
+      "punchline": "It was in tents."
+    },
+    {
+      "id": 131,
+      "setup": "Can February March?",
+      "punchline": "No, but April May!"
+    },
+    {
+      "id": 132,
+      "setup": "How do lawyers say goodbye?",
+      "punchline": "We'll be suing ya!"
+    },
+    {
+      "id": 133,
+      "setup": "Wanna hear a joke about paper?",
+      "punchline": "Never mind—it's tearable."
+    },
+    {
+      "id": 134,
+      "setup": "What's the best way to watch a fly fishing tournament?",
+      "punchline": "Live stream."
+    },
+    {
+      "id": 135,
+      "setup": "Spring is here! I got so excited I wet my plants.",
+      "punchline": ""
+    },
+    {
+      "id": 136,
+      "setup": "I could tell a joke about pizza, but it's a little cheesy.",
+      "punchline": ""
+    },
+    {
+      "id": 137,
+      "setup": "Don't trust atoms. They make up everything!",
+      "punchline": ""
+    },
+    {
+      "id": 138,
+      "setup": "When does a joke become a dad joke?",
+      "punchline": "When it becomes apparent."
+    },
+    {
+      "id": 139,
+      "setup": "I wouldn't buy anything with velcro. It's a total rip-off.",
+      "punchline": ""
+    },
+    {
+      "id": 140,
+      "setup": "What’s an astronaut’s favorite part of a computer?",
+      "punchline": "The space bar."
+    },
+    {
+      "id": 141,
+      "setup": "I don't play soccer because I enjoy the sport. I'm just doing it for kicks!",
+      "punchline": ""
+    },
+    {
+      "id": 142,
+      "setup": "Why are elevator jokes so classic and good?",
+      "punchline": "They work on many levels."
+    },
+    {
+      "id": 143,
+      "setup": "Why do bees have sticky hair?",
+      "punchline": "Because they use a honeycomb."
+    },
+    {
+      "id": 144,
+      "setup": "Which state has the most streets?",
+      "punchline": "Rhode Island."
+    },
+    {
+      "id": 145,
+      "setup": "What did the coffee report to the police?",
+      "punchline": "A mugging."
+    },
+    {
+      "id": 146,
+      "setup": "What did the fish say when he hit the wall?",
+      "punchline": "Dam."
+    },
+    {
+      "id": 147,
+      "setup": "Is this pool safe for diving?",
+      "punchline": "It deep ends."
+    },
+    {
+      "id": 148,
+      "setup": "If you see a crime happen at the Apple store, what does it make you?",
+      "punchline": "An iWitness."
+    }
+  ]
+}
