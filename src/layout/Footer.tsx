@@ -5,44 +5,46 @@ import { LinkedInIcon } from "../assets/icons/LinkedInIcon";
 export const Footer = () => {
   return (
     <footer className="home__footer">
-      <div className="link-block">
-        <h3>Contribute</h3>
-        <ul>
-          <li>
-            <a
-              href="https://github.com/DihanVermeulen/dad-joke-generator"
-              target="_blank"
-            >
-              GitHub
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div className="link-block">
-        <h3>Additional</h3>
-        <ul>
-          <li>
-            <a href="/" target="_blank">
-              Contact
-            </a>
-          </li>
-          <li>
-            <a href="/" target="_blank">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="/" target="_blank">
-              Terms Of Service
-            </a>
-          </li>
-          <li>
-            <a href="/" target="_blank">
-              Privacy Policy
-            </a>
-          </li>
-        </ul>
-      </div>
+      <section className="home__footer-link_section">
+        <div className="link-block">
+          <h3>Contribute</h3>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/DihanVermeulen/dad-joke-generator"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="link-block">
+          <h3>Additional</h3>
+          <ul>
+            <li>
+              <a href="/" target="_blank">
+                Contact
+              </a>
+            </li>
+            <li>
+              <a href="/" target="_blank">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="/" target="_blank">
+                Terms Of Service
+              </a>
+            </li>
+            <li>
+              <a href="/" target="_blank">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
       <div
         style={{
           width: "100%",
@@ -80,7 +82,7 @@ export const Footer = () => {
         </small>
       </p>
       <p style={{ textAlign: "center", width: "100%", color: "#777777" }}>
-        <small>Version: 1.0.0</small>
+        <small>Version: 1.1.0</small>
       </p>
     </footer>
   );

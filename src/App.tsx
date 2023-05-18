@@ -3,31 +3,43 @@ import "./App.css";
 import "./styles/buttons.css";
 import "./styles/headers.css";
 import "./styles/footers.css";
-import { axiosInstance } from "./services/axios";
 import { Footer } from "./layout/Footer";
 import { Header } from "./layout/Header";
+import dadJokes from "./data/dad-jokes.json";
+
+interface Error {
+  message?: string;
+}
 
 function App() {
-  const [dadJoke, setDadJoke] = useState<string>("");
-  const [error, setError] = useState<any>({});
+  const [jokeSetup, setJokeSetup] = useState<string>("");
+  const [jokePunchline, setJokePunchline] = useState<string>("");
+  const [error, setError] = useState<Error>({});
 
+  /**
+   * Fetches random dad joke
+   * @returns {object} - dad joke
+   */
   const fetchDadJoke = async () => {
-    const response = await axiosInstance.get("", {
-      headers: {
-        Accept: "application/json",
-      },
-    });
-    return response;
+    const data = dadJokes.jokes;
+    const randomJoke = data[Math.trunc(Math.random() * data.length + 1)];
+    console.log(Math.trunc(Math.random() * data.length + 1));
+    console.log(randomJoke);
+    return randomJoke;
   };
+
+  /**
+   * Hanldes the fetching of the dad joke
+   */
   const handleFetchDadJoke = () => {
     fetchDadJoke()
-      .then((response) => response.data)
+      .then((response) => response)
       .then((data) => {
         setError({});
-        setDadJoke(data.joke);
+        setJokeSetup(data.setup);
+        setJokePunchline(data.punchline);
       })
       .catch((error) => {
-        console.log(error);
         setError(error);
       });
   };
@@ -51,7 +63,9 @@ function App() {
         >
           Random
         </button>
-        <p className="output">{dadJoke}</p>
+        <p className="output">
+          {jokeSetup} <br></br> {jokePunchline && jokePunchline}
+        </p>
       </main>
       <Footer />
     </>

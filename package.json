@@ -1,7 +1,7 @@
 {
   "name": "dad-joke-generator",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "Dad Joke Generator is an entertaining application that generates an endless supply of hilarious dad jokes at the click of a button.",
   "scripts": {
