@@ -1,6 +1,8 @@
 :root {
     --background-colour-dark-100: rgba(26, 26, 26, 1);
     --background-colour-dark-80: rgba(26, 26, 26, 0.8);
+    --background-colour-dark-60: rgba(26, 26, 26, 0.6);
+    --background-colour-dark-40: rgba(26, 26, 26, 0.4);
     --background-colour-light-100: rgb(255, 255, 255);
     --background-colour-light-80: rgba(255, 255, 255, 0.8);
     --accent-colour-100: #646cff;
