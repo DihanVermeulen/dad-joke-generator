@@ -7,9 +7,13 @@ import { axiosInstance } from "./services/axios";
 import { Footer } from "./layout/Footer";
 import { Header } from "./layout/Header";
 
+interface Error {
+  message?: string;
+}
+
 function App() {
   const [dadJoke, setDadJoke] = useState<string>("");
-  const [error, setError] = useState<any>({});
+  const [error, setError] = useState<Error>({});
 
   const fetchDadJoke = async () => {
     const response = await axiosInstance.get("", {
