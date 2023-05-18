@@ -1,7 +1,4 @@
-:root {
-  --background-colour-100: rgba(26, 26, 26, 1);
-  --background-colour-80: rgba(26, 26, 26, 0.8);
-}
+@import url(./variables.css);
 
 .primary__button {
   border-radius: 8px;
@@ -10,7 +7,7 @@
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--background-colour);
+  background-color: var(--background-colour-dark-100);
   cursor: pointer;
   transition: border-color 0.25s;
   width: 7rem;
@@ -18,16 +15,16 @@
 }
 
 .primary__button:active {
-  background-color: var(--background-colour-80);
+  background-color: var(--background-colour-dark-80);
 }
 
 .primary__button:hover {
-  border-color: #646cff;
+  border-color: var(--accent-colour-100);
 }
 .primary__button:focus,
 .primary__button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-  background-color: var(--background-colour-80);
+  outline: 1px auto -webkit-focus-ring-color;
+  background-color: var(--background-colour-dark-80);
 }
 
 .clean__button {
@@ -45,5 +42,15 @@
 @media (prefers-color-scheme: light) {
   .primary__button {
     background-color: #ffffff;
+  }
+
+  .primary__button:active {
+    background-color: var(--accent-colour-100);
+  }
+
+  .primary__button:focus,
+  .primary__button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+    background-color: var(--background-colour-light-80);
   }
 }
