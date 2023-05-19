@@ -9,6 +9,7 @@
 <p>Dad Joke Generator is an entertaining application that generates an endless supply of hilarious dad jokes at the click of a button.</p>
 
 [![GNUv3 License](https://img.shields.io/badge/License-GNU%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c4f90f16-cf6e-4253-b9db-29b829c37bb3/deploy-status)](https://app.netlify.com/sites/dad-joke-generator-123/deploys)
 
 </header>
 
