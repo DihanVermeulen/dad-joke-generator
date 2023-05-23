@@ -1,3 +1,5 @@
+import { defineConfig } from "vite";
+import axios from "axios";
 import { Joke } from "../@types/jokes";
 
 const separateJokeBetweenSetupAndPunchline = (jokeData: Joke) => {
@@ -21,4 +23,12 @@ const separateJokeBetweenSetupAndPunchline = (jokeData: Joke) => {
   };
 };
 
-export { separateJokeBetweenSetupAndPunchline };
+const fetchJoke = async (requestUrl: string): Promise<any> => {
+  const response = await axios.get(requestUrl, {
+    headers: { Accept: "application/json" },
+  });
+
+  return response;
+};
+
+export { separateJokeBetweenSetupAndPunchline, fetchJoke };
