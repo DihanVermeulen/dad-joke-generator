@@ -20,7 +20,11 @@ function App() {
    * Fetches random dad joke
    * @returns {object} - dad joke
    */
-  const fetchDadJoke = async () => {
+  const fetchDadJoke = async (): Promise<{
+    id: number;
+    setup: string;
+    punchline: string;
+  }> => {
     const data = dadJokes.jokes;
     const randomJoke = data[Math.trunc(Math.random() * data.length + 1)];
     console.log(Math.trunc(Math.random() * data.length + 1));
