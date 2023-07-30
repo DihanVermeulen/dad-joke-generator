@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { Typography } from "@mui/material";
 
 export const StyledHeader = styled("header")`
   position: absolute;
@@ -12,4 +13,9 @@ export const StyledHeader = styled("header")`
   padding-right: 2rem;
 `;
 
-export default { StyledHeader };
+export const Title = styled(Typography)<{ component: string }>`
+  font-weight: 600;
+  letter-spacing: 2px;
+`;
+
+export default { StyledHeader, Title };
