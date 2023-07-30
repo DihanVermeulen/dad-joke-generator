@@ -1,5 +1,6 @@
 :root {
   --background-colour: #537091;
+  --background-colour-secondary: #fff896;
   --text-colour: #ffffff;
 }
 
@@ -42,7 +43,7 @@ main p {
 }
 
 .punchline {
-  background-color: #404040;
+  background-color: var(--background-colour);
   padding: 5px;
 }
 
@@ -54,8 +55,10 @@ main p {
   top: 0;
   width: 100%;
   height: 40px;
-  background-color: var(--background-colour);
-  color: #ffffff;
+  background-color: var(--background-colour-secondary);
+  font-size: large;
+  font-weight: 600;
+  color: #000000;
   z-index: 1;
   cursor: pointer;
 }
