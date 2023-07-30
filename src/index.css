@@ -8,7 +8,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #537091;
   --text-colour: #ffffff;
 
   font-synthesis: none;
@@ -48,18 +48,4 @@ body {
 h1 {
   font-size: 3rem;
   line-height: 1.1;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: var(--background-colour-light-80);
-  }
-  a:hover {
-    color: #747bff;
-  }
-
-  h3 {
-    color: #242424;
-  }
 }

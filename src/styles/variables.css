@@ -1,9 +1,14 @@
 :root {
-    --background-colour-dark-100: rgba(26, 26, 26, 1);
-    --background-colour-dark-80: rgba(26, 26, 26, 0.8);
-    --background-colour-dark-60: rgba(26, 26, 26, 0.6);
-    --background-colour-dark-40: rgba(26, 26, 26, 0.4);
-    --background-colour-light-100: rgb(255, 255, 255);
-    --background-colour-light-80: rgba(255, 255, 255, 0.8);
-    --accent-colour-100: #646cff;
-  }
+  --background-colour-dark-100: rgba(26, 26, 26, 1);
+  --background-colour-dark-80: rgba(26, 26, 26, 0.8);
+  --background-colour-dark-60: rgba(26, 26, 26, 0.6);
+  --background-colour-dark-40: rgba(26, 26, 26, 0.4);
+  --background-colour-light-100: rgb(255, 255, 255);
+  --background-colour-light-80: rgba(255, 255, 255, 0.8);
+  --accent-colour-100: #646cff;
+  --paynes-gray: #537091ff;
+  --cream: #ffffc8ff;
+  --flax: #fff896ff;
+  --penn-blue: #000945ff;
+  --dark-purple: #30011eff;
+}

@@ -1,5 +1,6 @@
 :root {
-  --background-colour: #1a1a1a;
+  --background-colour: #537091;
+  --background-colour-secondary: #fff896;
   --text-colour: #ffffff;
 }
 
@@ -28,16 +29,76 @@ main p {
   color: red;
 }
 
-.output {
-  height: 10px;
+.joke__output {
+  margin-bottom: 10px;
 }
 
-@media (prefers-color-scheme: light) {
-  main p {
-    color: #1a1a1a;
-  }
+.joke-container {
+  position: relative;
+}
 
-  main h1 {
-    color: #1a1a1a;
+.punchline-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.punchline {
+  background-color: var(--background-colour);
+  padding: 5px;
+}
+
+.punchline__overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background-color: var(--background-colour-secondary);
+  font-size: large;
+  font-weight: 600;
+  color: #000000;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.pulse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  box-shadow: 0 0 0 #daff68;
+  animation: pulse 2s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
   }
 }
