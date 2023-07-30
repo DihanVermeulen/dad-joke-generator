@@ -49,17 +49,3 @@ h1 {
   font-size: 3rem;
   line-height: 1.1;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: var(--background-colour-light-80);
-  }
-  a:hover {
-    color: #747bff;
-  }
-
-  h3 {
-    color: #242424;
-  }
-}

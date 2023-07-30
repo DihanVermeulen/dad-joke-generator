@@ -99,13 +99,3 @@ main p {
     box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
   }
 }
-
-@media (prefers-color-scheme: light) {
-  main p {
-    color: #1a1a1a;
-  }
-
-  main h1 {
-    color: #1a1a1a;
-  }
-}
