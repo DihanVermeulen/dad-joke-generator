@@ -11,6 +11,7 @@ export const StyledHeader = styled("header")`
   padding: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  background-color: #000945;
 `;
 
 export const Title = styled(Typography)<{ component: string }>`
