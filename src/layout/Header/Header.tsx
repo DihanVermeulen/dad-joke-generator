@@ -1,4 +1,4 @@
-import InstallPWAButton from "../components/PwaInstallButton";
+import InstallPWAButton from "../../components/PwaInstallButton";
 
 const Header = () => {
   return (
