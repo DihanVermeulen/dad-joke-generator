@@ -1,4 +1,3 @@
-import { defineConfig } from "vite";
 import axios from "axios";
 import { Joke } from "../@types/jokes";
 
